@@ -1,0 +1,2381 @@
+{
+    "champs": [
+        {
+            "name": "Aatrox",
+            "role": "top",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Akshan",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ahri",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Akali",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Alistar",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Amumu",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Anivia",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Annie",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Aphelios",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ashe",
+            "role": "unknown",
+            "total": 4,
+            "won": 3,
+            "winrate": 0.75,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "AurelionSol",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Azir",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Bard",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Belveth",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Blitzcrank",
+            "role": "unknown",
+            "total": 3,
+            "won": 1,
+            "winrate": 0.3333333333333333,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Brand",
+            "role": "unknown",
+            "total": 5,
+            "won": 3,
+            "winrate": 0.6,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Braum",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Briar",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Caitlyn",
+            "role": "unknown",
+            "total": 4,
+            "won": 2,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Camille",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Cassiopeia",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Chogath",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Corki",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Darius",
+            "role": "unknown",
+            "total": 3,
+            "won": 2,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Diana",
+            "role": "unknown",
+            "total": 3,
+            "won": 1,
+            "winrate": 0.3333333333333333,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "DrMundo",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Draven",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ekko",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Elise",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Evelynn",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ezreal",
+            "role": "unknown",
+            "total": 4,
+            "won": 2,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Fiddlesticks",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Fiora",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Fizz",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Galio",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Gangplank",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Garen",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Gnar",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Gragas",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Graves",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Gwen",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Hecarim",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Heimerdinger",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Hwei",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Illaoi",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Irelia",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ivern",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Janna",
+            "role": "unknown",
+            "total": 3,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "JarvanIV",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Jax",
+            "role": "unknown",
+            "total": 3,
+            "won": 1,
+            "winrate": 0.3333333333333333,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Jayce",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Jhin",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Jinx",
+            "role": "unknown",
+            "total": 3,
+            "won": 2,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ksante",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kaisa",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kalista",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Karma",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Karthus",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kassadin",
+            "role": "unknown",
+            "total": 4,
+            "won": 3,
+            "winrate": 0.75,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Katarina",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kayle",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kayn",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kennen",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Khazix",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kindred",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kled",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kogmaw",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeBlanc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeeSin",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Leona",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Lillia",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Lissandra",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Lucian",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Lulu",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Lux",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Malphite",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Malzahar",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Maokai",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MasterYi",
+            "role": "unknown",
+            "total": 6,
+            "won": 4,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Milio",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MissFortune",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Mordekaiser",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Morgana",
+            "role": "unknown",
+            "total": 3,
+            "won": 2,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Naafiri",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nami",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nasus",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nautilus",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Neeko",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nidalee",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nilah",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nocturne",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "NunuWillump",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Olaf",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Orianna",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ornn",
+            "role": "unknown",
+            "total": 3,
+            "won": 1,
+            "winrate": 0.3333333333333333,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Pantheon",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Poppy",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Pyke",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Qiyana",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Quinn",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Rakan",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Rammus",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Reksai",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Rell",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "RenataGlasc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Renekton",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Rengar",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Riven",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Rumble",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ryze",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Samira",
+            "role": "unknown",
+            "total": 7,
+            "won": 6,
+            "winrate": 0.8571428571428571,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Sejuani",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Senna",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Seraphine",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Sett",
+            "role": "unknown",
+            "total": 3,
+            "won": 2,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Shaco",
+            "role": "unknown",
+            "total": 4,
+            "won": 1,
+            "winrate": 0.25,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Shen",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Shyvana",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Singed",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Sion",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Sivir",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Skarner",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Smolder",
+            "role": "unknown",
+            "total": 3,
+            "won": 3,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Sona",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Soraka",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Swain",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Sylas",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Syndra",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TahmKench",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Taliyah",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Talon",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Taric",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Teemo",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Thresh",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Tristana",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Trundle",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Tryndamere",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TwistedFate",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Twitch",
+            "role": "unknown",
+            "total": 4,
+            "won": 3,
+            "winrate": 0.75,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Udyr",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Urgot",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Varus",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Vayne",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Veigar",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Velkoz",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Vex",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Vi",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Viego",
+            "role": "unknown",
+            "total": 3,
+            "won": 1,
+            "winrate": 0.3333333333333333,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Viktor",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Vladimir",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Volibear",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Warwick",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MonkeyKing",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Xayah",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Xerath",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "XinZhao",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Yasuo",
+            "role": "unknown",
+            "total": 4,
+            "won": 3,
+            "winrate": 0.75,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Yone",
+            "role": "unknown",
+            "total": 5,
+            "won": 4,
+            "winrate": 0.8,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Yorick",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Yuumi",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Zac",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Zed",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Zeri",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ziggs",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Zilean",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Zoe",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Zyra",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "AurelionSol",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Belveth",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Chogath",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Dr.Mundo",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "JarvanIV",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ksante",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kaisa",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Khazix",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kogmaw",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeeSin",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MasterYi",
+            "role": "unknown",
+            "total": 6,
+            "won": 4,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MissFortune",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nunu&Willump",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Reksai",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "RenataGlasc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TahmKench",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TwistedFate",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Velkoz",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MonkeyKing",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "XinZhao",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "AurelionSol",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Belveth",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Chogath",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Dr.Mundo",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "JarvanIV",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ksante",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kaisa",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Khazix",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kogmaw",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeeSin",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MasterYi",
+            "role": "unknown",
+            "total": 6,
+            "won": 4,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MissFortune",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Nunu&Willump",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Reksai",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "RenataGlasc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TahmKench",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TwistedFate",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Velkoz",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MonkeyKing",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "XinZhao",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "AurelionSol",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Belveth",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Chogath",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "DrMundo",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "JarvanIV",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ksante",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kaisa",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Khazix",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kogmaw",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeeSin",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MasterYi",
+            "role": "unknown",
+            "total": 6,
+            "won": 4,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MissFortune",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Reksai",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "RenataGlasc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TahmKench",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TwistedFate",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Velkoz",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MonkeyKing",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "XinZhao",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "AurelionSol",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Belveth",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Chogath",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "DrMundo",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "JarvanIV",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ksante",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kaisa",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Khazix",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kogmaw",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeeSin",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MasterYi",
+            "role": "unknown",
+            "total": 6,
+            "won": 4,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MissFortune",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Reksai",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "RenataGlasc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TahmKench",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TwistedFate",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Velkoz",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MonkeyKing",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "XinZhao",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "AurelionSol",
+            "role": "unknown",
+            "total": 2,
+            "won": 2,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Belveth",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Chogath",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "DrMundo",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "JarvanIV",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Ksante",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kaisa",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Khazix",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Kogmaw",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "LeeSin",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MasterYi",
+            "role": "unknown",
+            "total": 6,
+            "won": 4,
+            "winrate": 0.6666666666666666,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MissFortune",
+            "role": "unknown",
+            "total": 2,
+            "won": 1,
+            "winrate": 0.5,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Reksai",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "RenataGlasc",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TahmKench",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "TwistedFate",
+            "role": "unknown",
+            "total": 1,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "Velkoz",
+            "role": "unknown",
+            "total": 2,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "MonkeyKing",
+            "role": "unknown",
+            "total": 0,
+            "won": 0,
+            "winrate": 0.0,
+            "cspm": 0,
+            "gpm": 0
+        },
+        {
+            "name": "XinZhao",
+            "role": "unknown",
+            "total": 1,
+            "won": 1,
+            "winrate": 1.0,
+            "cspm": 0,
+            "gpm": 0
+        }
+    ],
+    "name": "Zyra"
+}
