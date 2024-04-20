@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch the match history data from your API
-    fetch('http://localhost:5000/api/games')
+    fetch('https://243c-79-101-36-217.ngrok-free.app/games')
     .then(response => response.json())  // Convert the returned response into JSON
     .then(data => {
         // Handle the data
