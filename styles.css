@@ -1,0 +1,98 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #5383e8
+}
+
+.header {
+    background-color: #5383e8;
+    color: bisque;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* This will push the .header_element_2 to the right */
+    padding: 10px; /* Add some padding for aesthetic spacing */
+}
+
+.header_element {
+    /* No need for margin-left here; flexbox will take care of spacing */
+    /* Instead, use flex to keep items in this div inline */
+    display: flex;
+    align-items: center; /* This will vertically center the items in the header */
+}
+
+.header_button {
+    padding: 10px 20px; /* Adds space around the text */
+    border: none; /* Removes the default border */
+    border-radius: 20px; /* Rounds the corners of the button */
+    background-color: white; /* Sets a background color */
+    color: #5383e8; /* Sets the text color to match the header */
+    font-size: 1em; /* Adjust text size as needed */
+    font-weight: bold; /* Makes the text bold */
+    text-transform: uppercase; /* Capitalizes button text */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate a clickable button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    align-self: center; /* This will vertically center the button within the flex container */
+}
+
+.header_button:hover {
+    background-color: #4677d8; /* Darker shade on hover */
+    color: white; /* White text on hover */
+}
+
+
+
+
+
+.main_container {
+    color: bisque;
+    display: flex;
+    justify-content: center; /* Centers horizontally in the flex container */
+    align-items: center; /* Centers vertically in the flex container */
+    height: 40vh; /* Use at least the height of the viewport */
+    text-align: center; /* To center the text inside the centered div if needed */
+}
+
+.main_centered {
+    width: 200px; /* Your desired width */
+    height: 100px; /* Your desired height */
+    /* Additional styling */
+}
+
+
+
+#matchHistoryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0px; /* Space between match history items */
+}
+
+.match {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    color: bisque;
+    border: 0;
+    /* Add additional styling, such as colors, borders, etc., here */
+}
+
+/* You'll add specific classes or IDs for each part to style, such as colors for wins/losses */
+.win {
+    background-color: #5383e8;
+    ;
+}
+
+.loss {
+    background-color: red;
+}
+
+.match-history-stat{
+    color: bisque;
+    font-size: 24px;
+    padding: 5px;
+}
+
+/* Add more specific styles for text, boxes, etc. */
+
