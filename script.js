@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch the match history data from your API
-    fetch('http://mikocchidesu.pythonanywhere.com/api/games')
+    fetch('https://mikocchidesu.pythonanywhere.com/api/games')
     .then(response => response.json())  // Convert the returned response into JSON
     .then(data => {
         // Handle the data
