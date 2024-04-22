@@ -18,7 +18,7 @@ import json
 
 
 # info
-api_key = 'RGAPI-b56ec12a-fbee-459b-a1e6-c33aa2bdced9'
+api_key = 'RGAPI-418f712d-27c1-41e4-9a58-7536fdf38400'
 myPuuid = 'Se279KIaijMJdjvNvUV7a4lRYffphvLCGOcHqbJctzA1pzMs6WZJWf5MVx5BDlW-JzSS40-CLG_lEA'
         # 7T00IGWidbGmYzlML6f9pAQ3PMMk1zbCTlOiID78sXIe
 acc_id = "cFxVignU3b82QlL4th5R7P7gHM8LS8R8mwSwFQqKqSQUxi8"

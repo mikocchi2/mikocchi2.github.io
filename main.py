@@ -2,7 +2,6 @@ import requests
 import urllib
 import json
 
-from shelved.analiza import *
 from setup import *
 import db as db
 
@@ -12,7 +11,8 @@ import statistics as st
 from collections import Counter
 from scipy.stats import norm
 
-import analysis
+#import analysis
+from operator import itemgetter
 
 
 
@@ -29,6 +29,7 @@ import analysis
 # myTop, myJungle, myMid, myAdc, mySupp = my
 # enemyTop, enemyJungle, enemyMid, enemyAdc, enemySupp = enemy
 
+champ: itemgetter = itemgetter('championName')
 
 # reporting
 def tierlist(minimum_games):
@@ -67,8 +68,13 @@ def main():
 
 
     recent = get_recent_matches(ag,30)
+    #for i in recent:
+    #    analysis.analyze_game_end(i,ag)
     for i in recent:
-        analysis.analyze_game_end(i,ag)
-    
+        parts = get_participants(i)
+        for part in parts:
+            #print(part['championName'])
+            print(champ(part))
+ 
 
 main()

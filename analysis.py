@@ -1,4 +1,5 @@
 from setup import *
+from operator import itemgetter
 
 ########################################################################################
 #                                                                                      #
@@ -77,7 +78,7 @@ def analyze_min(match_id,min):
 # ako hoces da dodajes stats u JSON nakon definitivne strukture, 
 # ili promeni json u novi za nove gejmove (major change)
 # ili dodaj novi key u svaki entry i stavi ga na null
-def analyze_game_end(match_id,puuid):
+def analyze_game_end(match_id,puuid,filename='champs.json'):
 
     # useless
     def is_between(x, a, b):
@@ -111,7 +112,7 @@ def analyze_game_end(match_id,puuid):
 
     # setup
     me,laner = get_me_and_laner(match_id,puuid)
-    print(f'{me['championName']} vs {laner['championName']}')
+    #print(f'{me['championName']} vs {laner['championName']}')
     gameDur = gameDuration(match_id)
     patch = get_patch(match_id)
 
@@ -180,7 +181,7 @@ def analyze_game_end(match_id,puuid):
     }
 
     # writing to json
-    file_name = 'games.json'
+    file_name = filename
     try:
         # First, try to load existing data
         with open(file_name, 'r') as file:
@@ -245,11 +246,103 @@ def ac_score(match_id, my_puuid): # ac score za gejm
     return final_scores
 
 
+def analyze_game_end_api(match_id,puuid,filename='champs.json'):
+    # setup
+    me,laner = get_me_and_laner(match_id,puuid)
+    #print(f'{me['championName']} vs {laner['championName']}')
+    gameDur = gameDuration(match_id)
+    patch = get_patch(match_id)
+
+
+    # my game stats
+    champ = me['championName']
+    lanerChamp = laner['championName']
+
+    cs = me['totalMinionsKilled']
+    cspm = cs/gameDur
+    wards_placed = me['wardsPlaced']
+    vision_score = me['visionScore']
+    dead = me['totalTimeSpentDead']/60
+    percentDead = round(dead/gameDur*100)
+
+    kills = me['kills']
+    assists = me['assists']
+    deaths = me['deaths']
+    kda = (kills+assists) / deaths if deaths != 0 else "perfect"
+
+    # lane comparation stats
+    gold_difference = me['goldEarned'] - laner['goldEarned']
+    gpm = me['goldEarned']/gameDur
+    cs_diff = me['totalMinionsKilled'] - laner['totalMinionsKilled']
+    lvl_diff = me['champLevel'] - laner['champLevel']
+    turret_dmg_diff = me['damageDealtToTurrets'] - laner['damageDealtToTurrets']  
+    total_dmg_diff = me['totalDamageDealtToChampions'] - laner['totalDamageDealtToChampions']
+    vision_diff = me['visionScore'] - laner['visionScore']
+
+    # analyses
+    acScore = None
+    acScore_difference = None
+
+    did_i_win = me['win']
+    
+
+    # json stats
+    game_stats = {
+        match_id :
+        {
+            'myPuuid':puuid,
+            'champ': champ,
+            'lanerChamp': lanerChamp,
+            'patch': patch,
+            'ac_score': acScore,
+            'ac_score_difference': acScore_difference,
+            'win': did_i_win,
+            'cs': cs,
+            'cs_per_minute': cspm,
+            'wards_placed': wards_placed,
+            'vision_score': vision_score,
+            'time_spent_dead_minutes': dead,
+            'percent_time_dead': percentDead,
+            'kills': kills,
+            'assists': assists,
+            'deaths': deaths,
+            'kda': kda,
+            'gold_difference': gold_difference,
+            'gold_per_minute': gpm,
+            'cs_difference': cs_diff,
+            'level_difference': lvl_diff,
+            'turret_damage_difference': turret_dmg_diff,
+            'total_damage_difference': total_dmg_diff,
+            'vision_score_difference': vision_diff
+        }
+    }
+
+    # writing to json
+    file_name = filename
+    try:
+        # First, try to load existing data
+        with open(file_name, 'r') as file:
+            data = json.load(file)
+    except FileNotFoundError:
+        # If not found, start a new dictionary
+        data = {}
+
+   
+    data.update(game_stats)  # Update the dictionary with new game stats
+
+    # Write back to the file
+    with open(file_name, 'w') as file:
+        json.dump(data, file, indent=4)
+
+
+    # finally
+    print(f'{percentDead:.2f}%')
+    #print(f'gold diff: {gold_difference}\nlvl diff: {lvl_diff}\ncs_diff: {cs_diff} cs:{cs}\nturret dmg diff: {turret_dmg_diff}\ntotal dmg dif: {total_dmg_diff}\nvision diff: {vision_diff}\n wards: {wards_placed}\n')
+    return (gold_difference,wards_placed,total_dmg_diff)
 
 
 
-
-
-recent = get_recent_matches(myPuuid,10)
-for i in range(10):
-    analyze_game_end(recent[i],myPuuid)
+if __name__ == '__main__':
+    recent = get_recent_matches(myPuuid,10)
+    for i in range(10):
+        analyze_game_end(recent[i],myPuuid)

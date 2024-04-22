@@ -1,56 +1,42 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Fetch the match history data from your API
-    fetch('https://1980-79-101-36-217.ngrok-free.app/api/games')
-    .then(response => response.json())  // Convert the returned response into JSON
-    .then(data => {
-        // Handle the data
-        console.log(data); // Log the data to the console
 
-        // Get the container where the match history will be appended
-        const matchHistoryContainer = document.getElementById('matchHistoryContainer');
+// send Ag to server
+function sendData() {
+    const userInput = document.getElementById('summoner_entry').value;
 
-        // Iterate over each match in the data object
-        Object.keys(data).forEach(key => {
-            const match = data[key];
-            
-            // Create a new div element for this match
-            const matchDiv = document.createElement('div');
-            matchDiv.className = 'match';
-            matchDiv.style.backgroundColor = match.win ? '#5383e8' : '#ff5555'; // Color code: blue for win, red for loss
+    var sumname = [s1, s2] = splitStringByHash(userInput); 
 
-            // Create a div to display champion vs. champion information
-            const myChamp = document.createElement('div');
-            myChamp.className = 'match-history-stat'
-            myChamp.textContent = `${match.champ} vs ${match.lanerChamp}`;  // Correctly set textContent to myChamp
-            matchDiv.appendChild(myChamp); 
+    const url = 'http://localhost:5000/api/user';
+    const params = {
+        game_name:  sumname[0],
+        tagline: sumname[1]
+    };
+    
+    // Create the URL with query parameters
+    const query = new URLSearchParams(params).toString();
+    const fullUrl = `${url}?${query}`;
+    console.log(fullUrl)
+    // Make a GET request with the query parameters
+    fetch(fullUrl)
+        .then(response => response.text())  // Convert the response to text
+        .then(text => {
+            console.log(text)
+        })    // Log the text to the console
+        .catch(error => console.error('Error:', error));
+        
+}
 
-            // Create a new div for CS per minute and add it to the match div
-            const csPerMinuteDiv = document.createElement('div');
-            csPerMinuteDiv.className = 'match-history-stat'
-            csPerMinuteDiv.textContent = `CS per minute: ${match.cs_per_minute.toFixed(2)}`;
-            matchDiv.appendChild(csPerMinuteDiv);
+function splitStringByHash(inputString) {
+    // Use the split() method to divide the string at the first occurrence of '#'
+    var parts = inputString.split('#', 2); // Limit to 2 parts to ensure only the first '#' is considered
 
-            // Create a new div for gold difference and add it to the match div
-            const goldDiffDiv = document.createElement('div');
-            goldDiffDiv.className = 'match-history-stat'
-            goldDiffDiv.textContent = `Gold difference: ${match.gold_difference}`;
-            matchDiv.appendChild(goldDiffDiv);
+    // Initialize s1 and s2
+    var s1 = parts[0];
+    var s2 = parts.length > 1 ? parts[1] : ""; // Check if there is a part after '#'
+    
+    return [s1, s2];  // Return as an array
+}
 
-            // Create a new div for CS difference and add it to the match div
-            const csDiffDiv = document.createElement('div');
-            csDiffDiv.className = 'match-history-stat'
-            csDiffDiv.textContent = `CS difference: ${match.cs_difference}`;
-            matchDiv.appendChild(csDiffDiv);
-
-            // Append the complete match div to the container
-            matchHistoryContainer.appendChild(matchDiv);
-        });
-    })
-    .catch(error => {
-        // Handle any errors that occur during the fetch
-        console.error('Error fetching data:', error);
-        const matchHistoryContainer = document.getElementById('matchHistoryContainer');
-        matchHistoryContainer.textContent = 'Failed to load data'; // Provide error text directly in the container
-    });
-});
+function viewResults() {
+    window.location.href = '/matchHistory.html';
+}
 
