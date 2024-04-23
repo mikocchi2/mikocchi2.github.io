@@ -5,7 +5,7 @@ function sendData() {
 
     var sumname = [s1, s2] = splitStringByHash(userInput); 
 
-    const url = 'http://localhost:5000/api/user';
+    const url = 'mikocchiDesu.pythonanywhere.com/api/results';
     const params = {
         game_name:  sumname[0],
         tagline: sumname[1]
