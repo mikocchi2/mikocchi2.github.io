@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Create a new div element for this match
             const matchDiv = document.createElement('div');
             matchDiv.className = 'match';
-            matchDiv.style.backgroundColor = match.win ? '#5383e8' : '#ff5555'; // Color code: blue for win, red for loss
+            matchDiv.style.backgroundColor = game_color(match); // Color code: blue for win, red for loss
 
             // Create a div to display champion vs. champion information
             const myChamp = document.createElement('div');
@@ -53,3 +53,20 @@ document.addEventListener('DOMContentLoaded', () => {
         matchHistoryContainer.textContent = 'Failed to load data'; // Provide error text directly in the container
     });
 });
+
+function game_color(match){
+    let color = "";
+    switch(match.ac_score) {
+        case 1:     color ='#FF0000'; break;
+        case 2:     color ='#E60A00'; break;
+        case 3:     color ='#CC1400'; break;
+        case 4:     color ='#B31F00'; break;
+        case 5:     color ='#992900'; break;
+        case 6:     color ='#803400'; break;
+        case 7:     color ='#663F00'; break;
+        case 8:     color ='#4D4A00'; break;
+        case 9:     color ='#335400'; break;
+        case 10:    color ='#1A6900'; break;
+    }
+    return color
+}
