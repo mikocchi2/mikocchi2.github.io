@@ -78,6 +78,7 @@ function game_color(match){
         case 8:     color ='#335400'; break;
         case 9:     color ='#1A6900'; break;
         case 10:    color ='#1A6900'; break;
+        case 11:    color = "#ffeb99"; break;
         default:    color ='000000'; break;
     }
     return color
