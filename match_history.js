@@ -7,29 +7,27 @@ document.addEventListener('DOMContentLoaded', () => {
             data.forEach(match => {
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'match';
-                matchDiv.style.backgroundColor = game_color(match.gold_grade);
-                matchDiv.style.marginBottom = '20px';  // Adds space between matches
+                matchDiv.style.backgroundColor = game_color(match.gold_grade); // Color based on gold_grade
 
+                // Create a div for the match header with basic info and the gold grade
                 const matchHeader = document.createElement('div');
                 matchHeader.className = 'match-header';
-                matchHeader.textContent = `Match: ${match.champ} vs ${match.laner} - Win: ${match.win ? 'Yes' : 'No'} - Grade: ${match.gold_grade}`;
-                matchHeader.style.padding = '10px';  // Padding around text in header
+                matchHeader.textContent = `Match: ${match.match_id} - ${match.champ} vs ${match.laner} - Win: ${match.win ? 'Yes' : 'No'} - Grade: ${match.gold_grade}`;
                 matchDiv.appendChild(matchHeader);
 
+                // Add detailed stats for each time point
                 Object.keys(match).forEach(key => {
-                    if (key === '10' || key === '15') {
+                    if (key === '10' || key === '15') { // Consider these keys as time points
+                        const timeFrame = match[key];
                         const timeFrameDiv = document.createElement('div');
                         timeFrameDiv.className = 'time-frame';
                         timeFrameDiv.textContent = `${key} minutes stats:`;
-                        timeFrameDiv.style.padding = '5px';  // Padding inside each time frame div
-                        timeFrameDiv.style.marginTop = '10px';  // Space above each time frame
 
                         const statsList = ['gold_difference', 'level_difference', 'cs_diff', 'cspm', 'avg_gold_diff'];
                         statsList.forEach(stat => {
                             const statDiv = document.createElement('div');
                             statDiv.className = 'stat';
                             statDiv.textContent = `${stat.replace('_', ' ')}: ${timeFrame[stat]}`;
-                            statDiv.style.padding = '5px';  // Padding around each stat
                             timeFrameDiv.appendChild(statDiv);
                         });
 
@@ -37,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
+                // Append the complete match div to the container
                 matchHistoryContainer.appendChild(matchDiv);
             });
         })
@@ -45,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             matchHistoryContainer.textContent = 'Failed to load data';
         });
 });
+
 
 
 // Updated game_color function based on gold_grade
