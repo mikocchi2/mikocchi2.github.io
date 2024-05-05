@@ -7,27 +7,36 @@ document.addEventListener('DOMContentLoaded', () => {
             data.forEach(match => {
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'match';
-                matchDiv.style.backgroundColor = game_color(match.gold_grade); // Color based on gold_grade
+                matchDiv.style.backgroundColor = game_color(match.gold_grade);
 
-                // Create a div for the match header with basic info and the gold grade
                 const matchHeader = document.createElement('div');
                 matchHeader.className = 'match-header';
                 matchHeader.textContent = `Match: ${match.match_id} - ${match.champ} vs ${match.laner} - Win: ${match.win ? 'Yes' : 'No'} - Grade: ${match.gold_grade}`;
                 matchDiv.appendChild(matchHeader);
 
-                // Add detailed stats for each time point
                 Object.keys(match).forEach(key => {
-                    if (key === '10' || key === '15') { // Consider these keys as time points
-                        const timeFrame = match[key];
+                    if (key === '10' || key === '15') {
                         const timeFrameDiv = document.createElement('div');
                         timeFrameDiv.className = 'time-frame';
                         timeFrameDiv.textContent = `${key} minutes stats:`;
+
+                        const toggleButton = document.createElement('button');
+                        toggleButton.textContent = 'Toggle Stats';
+                        toggleButton.onclick = function () {
+                            const statsDivs = timeFrameDiv.querySelectorAll('.stat');
+                            statsDivs.forEach(div => {
+                                div.style.display = div.style.display === 'none' ? 'block' : 'none';
+                            });
+                            this.textContent = this.textContent.includes('Hide') ? 'Show Stats' : 'Hide Stats';
+                        };
+                        timeFrameDiv.appendChild(toggleButton);
 
                         const statsList = ['gold_difference', 'level_difference', 'cs_diff', 'cspm', 'avg_gold_diff'];
                         statsList.forEach(stat => {
                             const statDiv = document.createElement('div');
                             statDiv.className = 'stat';
-                            statDiv.textContent = `${stat.replace('_', ' ')}: ${timeFrame[stat]}`;
+                            statDiv.textContent = `${stat.replace('_', ' ')}: ${match[key][stat]}`;
+                            statDiv.style.display = 'none'; // Start with stats hidden
                             timeFrameDiv.appendChild(statDiv);
                         });
 
@@ -35,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
-                // Append the complete match div to the container
                 matchHistoryContainer.appendChild(matchDiv);
             });
         })
@@ -44,6 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
             matchHistoryContainer.textContent = 'Failed to load data';
         });
 });
+
+
+
+
 
 
 
@@ -57,7 +69,7 @@ function game_color(grade){
         case 4: return '#e6b800';
         case 5: return '#ffcc00';
         case 6: return '#ffd11a';
-        case 7: return '#ffd11a';
+        case 7: return '#00cc00';
         case 8: return '#00b300';
         case 9: return '#009900';
         case 10: return '#1A6900';
