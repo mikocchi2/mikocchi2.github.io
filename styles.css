@@ -73,6 +73,19 @@ main{
     /* Additional styling */
 }
 
+/* Style for toggle button */
+.toggle-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block; /* Makes it sit nicely in the header */
+}
+
+/* Hidden stats by default */
 
 
 #matchHistoryContainer {
@@ -110,11 +123,13 @@ main{
 
 /* Styles for individual statistics within time frames */
 .stat {
+    display: none; /* Hide stats initially */
     padding: 5px;
-    margin-top: 2px; /* Space between stats */
-    font-size: 14px; /* Slightly smaller font size than the header */
-    color: #333; /* Dark grey text for better readability */
+    margin-top: 2px;
+    font-size: 14px;
+    color: #333;
 }
+
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 600px) {
