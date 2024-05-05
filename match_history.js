@@ -57,7 +57,7 @@ function game_color(grade){
         case 4: return '#e6b800';
         case 5: return '#ffcc00';
         case 6: return '#ffd11a';
-        case 7: return '#00cc00';
+        case 7: return '#ffd11a';
         case 8: return '#00b300';
         case 9: return '#009900';
         case 10: return '#1A6900';
