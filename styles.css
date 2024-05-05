@@ -46,6 +46,18 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .main_container {
     color: bisque;
     display: flex;
@@ -69,30 +81,50 @@ main{
     gap: 0px; /* Space between match history items */
 }
 
+/* General styles for each match container */
 .match {
-    display: flex;
+    background-color: #f0f0f0; /* Light grey background for visibility */
+    margin-bottom: 20px; /* Space between each match */
+    padding: 10px; /* Padding inside the match container */
+    border-radius: 8px; /* Optional: adds rounded corners to the match containers */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for the header in each match */
+.match-header {
     padding: 10px;
-    margin: 0;
-    color: bisque;
-    border: 0;
-    /* Add additional styling, such as colors, borders, etc., here */
+    font-weight: bold; /* Makes header text bold */
+    font-size: 16px; /* Increases the font size for better readability */
+    border-bottom: 1px solid #ccc; /* Adds a subtle line below the header */
+    margin-bottom: 10px; /* Space below the header */
 }
 
-/* You'll add specific classes or IDs for each part to style, such as colors for wins/losses */
-.win {
-    background-color: #5383e8;
-    ;
-}
-
-.loss {
-    background-color: red;
-}
-
-.match-history-stat{
-    color: bisque;
-    font-size: 24px;
+/* Styles for each time frame section */
+.time-frame {
+    background-color: #e9e9e9; /* Slightly darker than the match background for contrast */
     padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px; /* Optional: rounded corners for time frame sections */
+    border: 1px solid #d3d3d3; /* Light border for definition */
 }
 
-/* Add more specific styles for text, boxes, etc. */
+/* Styles for individual statistics within time frames */
+.stat {
+    padding: 5px;
+    margin-top: 2px; /* Space between stats */
+    font-size: 14px; /* Slightly smaller font size than the header */
+    color: #333; /* Dark grey text for better readability */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .match, .match-header, .time-frame, .stat {
+        padding: 5px; /* Less padding on smaller screens */
+        margin-bottom: 5px; /* Reduce margin on smaller devices */
+    }
+    .match-header {
+        font-size: 14px; /* Smaller font size on mobile devices */
+    }
+}
+
 
