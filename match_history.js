@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const matchHeader = document.createElement('div');
                 matchHeader.className = 'match-header';
-                matchHeader.textContent = `Match: ${match.match_id} - ${match.champ} vs ${match.laner} - Win: ${match.win ? 'Yes' : 'No'} - Grade: ${match.gold_grade}`;
+                matchHeader.textContent = `Match: ${match.champ} vs ${match.laner} - Win: ${match.win ? 'Yes' : 'No'} - Grade: ${match.gold_grade}`;
                 matchHeader.style.padding = '10px';  // Padding around text in header
                 matchDiv.appendChild(matchHeader);
 
