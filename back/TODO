@@ -1,0 +1,2 @@
+to up the amount of games fetchable, fetch the timelineDTO and matchDTO ONCE ONLY
+refactor the functions so that they take matchDto not match_id (redundant calls 429)
