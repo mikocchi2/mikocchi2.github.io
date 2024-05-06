@@ -40,7 +40,7 @@ function viewResults() {
     window.location.href = '/matchHistory.html';
 }
 
-function viewResults() {
+function viewDistribution() {
     window.location.href = '/distribution.html';
 }
 
