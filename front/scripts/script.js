@@ -37,9 +37,9 @@ function splitStringByHash(inputString) {
 }
 
 function viewResults() {
-    window.location.href = '/matchHistory.html';
+    window.location.href = 'front/matchHistory.html';
 }
 
 function viewDistribution() {
-    window.location.href = '/distribution.html';
+    window.location.href = 'front/distribution.html';
 }
