@@ -41,7 +41,7 @@ function viewResults() {
 }
 
 function viewDistribution() {
-    window.location.href = '/distribution.html';
+    window.location.href = 'distribution.html';
 }
 
 
