@@ -40,3 +40,8 @@ function viewResults() {
     window.location.href = '/matchHistory.html';
 }
 
+function viewResults() {
+    window.location.href = '/distribution.html';
+}
+
+
