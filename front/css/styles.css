@@ -1,0 +1,145 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #5383e8
+}
+
+.header {
+    background-color: #5383e8;
+    color: bisque;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* This will push the .header_element_2 to the right */
+    padding: 10px; /* Add some padding for aesthetic spacing */
+}
+
+.header_element {
+    /* No need for margin-left here; flexbox will take care of spacing */
+    /* Instead, use flex to keep items in this div inline */
+    display: flex;
+    align-items: center; /* This will vertically center the items in the header */
+}
+
+.header_button {
+    padding: 10px 20px; /* Adds space around the text */
+    border: none; /* Removes the default border */
+    border-radius: 20px; /* Rounds the corners of the button */
+    background-color: white; /* Sets a background color */
+    color: #5383e8; /* Sets the text color to match the header */
+    font-size: 1em; /* Adjust text size as needed */
+    font-weight: bold; /* Makes the text bold */
+    text-transform: uppercase; /* Capitalizes button text */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate a clickable button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    align-self: center; /* This will vertically center the button within the flex container */
+}
+
+.header_button:hover {
+    background-color: #4677d8; /* Darker shade on hover */
+    color: white; /* White text on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_container {
+    color: bisque;
+    display: flex;
+    justify-content: center; /* Centers horizontally in the flex container */
+    align-items: center; /* Centers vertically in the flex container */
+    height: 40vh; /* Use at least the height of the viewport */
+    text-align: center; /* To center the text inside the centered div if needed */
+}
+
+.main_centered {
+    width: 200px; /* Your desired width */
+    height: 100px; /* Your desired height */
+    /* Additional styling */
+}
+
+/* Style for toggle button */
+.toggle-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block; /* Makes it sit nicely in the header */
+}
+
+/* Hidden stats by default */
+
+
+#matchHistoryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0px; /* Space between match history items */
+}
+
+/* General styles for each match container */
+.match {
+    background-color: #f0f0f0; /* Light grey background for visibility */
+    margin-bottom: 20px; /* Space between each match */
+    padding: 10px; /* Padding inside the match container */
+    border-radius: 8px; /* Optional: adds rounded corners to the match containers */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for the header in each match */
+.match-header {
+    padding: 10px;
+    font-weight: bold; /* Makes header text bold */
+    font-size: 16px; /* Increases the font size for better readability */
+    border-bottom: 1px solid #ccc; /* Adds a subtle line below the header */
+    margin-bottom: 10px; /* Space below the header */
+}
+
+/* Styles for each time frame section */
+.time-frame {
+    background-color: #e9e9e9; /* Slightly darker than the match background for contrast */
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px; /* Optional: rounded corners for time frame sections */
+    border: 1px solid #d3d3d3; /* Light border for definition */
+}
+
+/* Styles for individual statistics within time frames */
+.stat {
+    display: none; /* Hide stats initially */
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .match, .match-header, .time-frame, .stat {
+        padding: 5px; /* Less padding on smaller screens */
+        margin-bottom: 5px; /* Reduce margin on smaller devices */
+    }
+    .match-header {
+        font-size: 14px; /* Smaller font size on mobile devices */
+    }
+}
+
+
