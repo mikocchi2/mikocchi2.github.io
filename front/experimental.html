@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Match History</title>
-    <script src="scripts/script.js"></script>
     <style>
         .match { margin: 10px; padding: 10px; border: 1px solid #ccc; }
         .match-header { font-weight: bold; }
         .stat { display: none; }
         .time-frame { margin-top: 10px; }
     </style>
+    <script src="scripts/script.js"></script>
 </head>
 <body>
     <div>
@@ -110,9 +110,17 @@
 
         function game_color(value, criteria) {
             if (criteria === 'cspm') {
-                if (value <= 3) return `rgb(255, ${Math.round((value / 3) * 255)}, 0)`; // shades of red
-                else if (value > 3 && value < 7) return `rgb(255, 255, 0)`; // yellow
-                else return `rgb(0, ${Math.round((value - 7) / 3 * 255)}, 0)`; // shades of green
+                if (value >= 10) return '#00ffae';
+                else if (value >= 9) return '#02fa76';
+                else if (value >= 8) return '#7afa02';
+                else if (value >= 7) return '#c0fa02';
+                else if (value >= 6) return '#f2fa02';
+                else if (value >= 5) return '#fac002';
+                else if (value >= 4) return '#fa8f02';
+                else if (value >= 3) return '#fa5902';
+                else if (value >= 2) return '#fa3002';
+                else if (value >= 1) return '#ff2a00';
+                else return '#000000';
             } else if (criteria === 'strict') {
                 if (value >= 8 && value <= 11) {
                     return game_color(value, 'not_strict'); // Use the existing color scheme for grades 8, 9, 10, 11
