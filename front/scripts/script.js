@@ -37,10 +37,10 @@ function splitStringByHash(inputString) {
 }
 
 function viewResults() {
-    window.location.href = 'https://mikocchi2.github.io/front/matchHistory.html';
+    window.location.href = '/matchHistory.html';
 }
 
 function viewDistribution() {
-    window.location.href = 'https://mikocchi2.github.io/front/distribution.html';
+    window.location.href = '/distribution.html';
 }
 
