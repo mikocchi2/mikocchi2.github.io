@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Match History</title>
-    <script src="scripts/script.js"></script>
+    <script src='scripts/script.js'>
     <style>
         .match { margin: 10px; padding: 10px; border: 1px solid #ccc; }
         .match-header { font-weight: bold; }
@@ -37,15 +37,19 @@
                             const matchDiv = document.createElement('div');
                             matchDiv.className = 'match';
 
+                            let colorValue;
                             switch(criteria) {
                                 case 'gold_diff_10':
-                                    matchDiv.style.backgroundColor = game_color(match['10'].gold_difference, criteria);
+                                    colorValue = match.gold_grade; // Assuming you want to color by gold_grade
+                                    matchDiv.style.backgroundColor = game_color(colorValue, criteria);
                                     break;
                                 case 'gold_diff_15':
-                                    matchDiv.style.backgroundColor = game_color(match['15'].gold_difference, criteria);
+                                    colorValue = match.gold_grade; // Assuming you want to color by gold_grade
+                                    matchDiv.style.backgroundColor = game_color(colorValue, criteria);
                                     break;
                                 case 'cspm':
-                                    matchDiv.style.backgroundColor = game_color(match['15'].cspm, criteria); // assuming CSPM is at 15 minutes
+                                    colorValue = match['15'].cspm; // Assuming CSPM is at 15 minutes
+                                    matchDiv.style.backgroundColor = game_color(colorValue, criteria);
                                     break;
                                 default:
                                     matchDiv.style.backgroundColor = '#000000';
@@ -120,9 +124,9 @@
                     case 5: return '#ffcc00';
                     case 6: return '#ffd11a';
                     case 7: return '#00cc00';
-                    case 8: return '##3ef06e';
-                    case 9: return '##3ef06e';
-                    case 10: return '##3ef06e';
+                    case 8: return '#00b300';
+                    case 9: return '#009900';
+                    case 10: return '#1A6900';
                     default: return '#000000'; // default case to handle unexpected grades
                 }
             }
