@@ -44,4 +44,8 @@ function viewDistribution() {
     window.location.href = 'https://mikocchi2.github.io/front/distribution.html';
 }
 
+function viewDistribution() {
+    window.location.href = 'https://mikocchi2.github.io/front/experimental.html';
+}
+
 
