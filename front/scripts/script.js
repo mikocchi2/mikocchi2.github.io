@@ -37,7 +37,7 @@ function splitStringByHash(inputString) {
 }
 
 function viewResults() {
-    window.location.href = 'mikocchi2.github.io/front/matchHistory.html';
+    window.location.href = '/front/matchHistory.html';
 }
 
 function viewDistribution() {
