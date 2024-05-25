@@ -105,9 +105,9 @@
 
         function game_color(value, criteria) {
             if (criteria === 'cspm') {
-                if (value <= 3) return '#ff0000'; // red
-                else if (value > 3 && value < 7) return '#e6b800'; // yellow
-                else return '#00cc00'; // green
+                if (value <= 3) return `rgb(255, ${Math.round((value / 3) * 255)}, 0)`; // shades of red
+                else if (value > 3 && value < 7) return `rgb(255, 255, 0)`; // yellow
+                else return `rgb(0, ${Math.round((value - 7) / 3 * 255)}, 0)`; // shades of green
             } else {
                 // Use gold_grade for coloring
                 switch(value) {
