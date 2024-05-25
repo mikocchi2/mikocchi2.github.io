@@ -35,6 +35,7 @@ main{
     cursor: pointer; /* Changes the cursor to a pointer to indicate a clickable button */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
     align-self: center; /* This will vertically center the button within the flex container */
+    margin: 5px;
 }
 
 .header_button:hover {
