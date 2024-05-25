@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match History</title>
+    <style>
+        .match { margin: 10px; padding: 10px; border: 1px solid #ccc; }
+        .match-header { font-weight: bold; }
+        .stat { display: none; }
+        .time-frame { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="criteria">Select criteria for colorization:</label>
+        <select id="criteria">
+            <option value="gold_diff_10">Gold Difference at 10 min</option>
+            <option value="gold_diff_15">Gold Difference at 15 min</option>
+            <option value="cspm">CSPM</option>
+        </select>
+    </div>
+    <div id="matchHistoryContainer"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('https://mikocchidesu.pythonanywhere.com/api/results')
+                .then(response => response.json())
+                .then(data => {
+                    const matchHistoryContainer = document.getElementById('matchHistoryContainer');
+                    const criteriaSelector = document.getElementById('criteria');
+
+                    const renderMatches = (criteria) => {
+                        matchHistoryContainer.innerHTML = '';
+                        data.forEach(match => {
+                            const matchDiv = document.createElement('div');
+                            matchDiv.className = 'match';
+
+                            switch(criteria) {
+                                case 'gold_diff_10':
+                                    matchDiv.style.backgroundColor = game_color(match['10'].gold_difference, criteria);
+                                    break;
+                                case 'gold_diff_15':
+                                    matchDiv.style.backgroundColor = game_color(match['15'].gold_difference, criteria);
+                                    break;
+                                case 'cspm':
+                                    matchDiv.style.backgroundColor = game_color(match['15'].cspm, criteria); // assuming CSPM is at 15 minutes
+                                    break;
+                                default:
+                                    matchDiv.style.backgroundColor = '#000000';
+                            }
+
+                            const matchHeader = document.createElement('div');
+                            matchHeader.className = 'match-header';
+                            matchHeader.textContent = `Match: ${match.match_id} - ${match.champ} vs ${match.laner} - Win: ${match.win ? 'Yes' : 'No'} - Grade: ${match.gold_grade}`;
+                            matchDiv.appendChild(matchHeader);
+
+                            Object.keys(match).forEach(key => {
+                                if (key === '10' || key === '15') {
+                                    const timeFrameDiv = document.createElement('div');
+                                    timeFrameDiv.className = 'time-frame';
+                                    timeFrameDiv.textContent = `${key} minutes stats:`;
+
+                                    const toggleButton = document.createElement('button');
+                                    toggleButton.textContent = 'Toggle Stats';
+                                    toggleButton.onclick = function () {
+                                        const statsDivs = timeFrameDiv.querySelectorAll('.stat');
+                                        statsDivs.forEach(div => {
+                                            div.style.display = div.style.display === 'none' ? 'block' : 'none';
+                                        });
+                                        this.textContent = this.textContent.includes('Hide') ? 'Show Stats' : 'Hide Stats';
+                                    };
+                                    timeFrameDiv.appendChild(toggleButton);
+
+                                    const statsList = ['gold_difference', 'level_difference', 'cs_diff', 'cspm', 'avg_gold_diff'];
+                                    statsList.forEach(stat => {
+                                        const statDiv = document.createElement('div');
+                                        statDiv.className = 'stat';
+                                        statDiv.textContent = `${stat.replace('_', ' ')}: ${match[key][stat]}`;
+                                        statDiv.style.display = 'none'; // Start with stats hidden
+                                        timeFrameDiv.appendChild(statDiv);
+                                    });
+
+                                    matchDiv.appendChild(timeFrameDiv);
+                                }
+                            });
+
+                            matchHistoryContainer.appendChild(matchDiv);
+                        });
+                    };
+
+                    // Initial render with default criteria
+                    renderMatches(criteriaSelector.value);
+
+                    // Update render on criteria change
+                    criteriaSelector.addEventListener('change', (e) => {
+                        renderMatches(e.target.value);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    document.getElementById('matchHistoryContainer').textContent = 'Failed to load data';
+                });
+        });
+
+        function game_color(value, criteria) {
+            if (criteria === 'cspm') {
+                if (value <= 3) return '#ff0000'; // red
+                else if (value > 3 && value < 7) return '#e6b800'; // yellow
+                else return '#00cc00'; // green
+            } else {
+                // Use gold_grade for coloring
+                switch(value) {
+                    case 0: return '#990000';
+                    case 1: return '#cc0000';
+                    case 2: return '#ff0000';
+                    case 3: return '#ff3333';
+                    case 4: return '#e6b800';
+                    case 5: return '#ffcc00';
+                    case 6: return '#ffd11a';
+                    case 7: return '#00cc00';
+                    case 8: return '#00b300';
+                    case 9: return '#009900';
+                    case 10: return '#1A6900';
+                    default: return '#000000'; // default case to handle unexpected grades
+                }
+            }
+        }
+    </script>
+</body>
+</html>
