@@ -65,8 +65,9 @@ main{
     display: flex;
     justify-content: center; /* Centers horizontally in the flex container */
     align-items: center; /* Centers vertically in the flex container */
-    height: 40vh; /* Use at least the height of the viewport */
+    height: 50vh; /* Use at least the height of the viewport */
     text-align: center; /* To center the text inside the centered div if needed */
+    padding-bottom:5px;
 }
 
 .main_centered {
