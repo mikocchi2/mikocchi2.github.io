@@ -16,8 +16,8 @@
     <div>
         <label for="criteria">Select criteria for colorization:</label>
         <select id="criteria">
-            <option value="gold_diff_10">Gold Difference at 10 min</option>
-            <option value="gold_diff_15">Gold Difference at 15 min</option>
+            <option value="not_strict">Not Strict</option>
+            <option value="strict">Strict</option>
             <option value="cspm">CSPM</option>
         </select>
     </div>
@@ -39,12 +39,12 @@
 
                             let colorValue;
                             switch(criteria) {
-                                case 'gold_diff_10':
-                                    colorValue = match.gold_grade; // Assuming you want to color by gold_grade
+                                case 'not_strict':
+                                    colorValue = match.gold_grade; // Using gold_grade for coloring
                                     matchDiv.style.backgroundColor = game_color(colorValue, criteria);
                                     break;
-                                case 'gold_diff_15':
-                                    colorValue = match.gold_grade; // Assuming you want to color by gold_grade
+                                case 'strict':
+                                    colorValue = match.gold_grade; // Using gold_grade for coloring
                                     matchDiv.style.backgroundColor = game_color(colorValue, criteria);
                                     break;
                                 case 'cspm':
@@ -113,8 +113,14 @@
                 if (value <= 3) return `rgb(255, ${Math.round((value / 3) * 255)}, 0)`; // shades of red
                 else if (value > 3 && value < 7) return `rgb(255, 255, 0)`; // yellow
                 else return `rgb(0, ${Math.round((value - 7) / 3 * 255)}, 0)`; // shades of green
+            } else if (criteria === 'strict') {
+                if (value >= 8 && value <= 11) {
+                    return game_color(value, 'not_strict'); // Use the existing color scheme for grades 8, 9, 10, 11
+                } else {
+                    return '#ff5454'; // strict color
+                }
             } else {
-                // Use gold_grade for coloring
+                // Use gold_grade for coloring (not strict)
                 switch(value) {
                     case 0: return '#990000';
                     case 1: return '#cc0000';
